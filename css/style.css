@@ -1,0 +1,61 @@
+body {
+	background-image: url(../img/gplaypattern.png);
+	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #646464;
+}
+
+figure {
+	text-align: center;
+}
+
+figure img {
+	display: inline-block;
+}
+
+h3 {
+	font-weight: 600;	
+}
+
+hr {
+	margin: 15px 0;
+}
+
+ul.social {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+	ul.social li {
+		float: left;
+		margin-left: 4px;
+	}
+
+	ul.social li:first-child {
+		margin-left: 0;
+	}
+
+		ul.social li a {
+			display: block;
+			width: 40px;
+			height: 40px;
+			background-color: rgb(189, 138, 139);
+			color: #ffffff;
+			font-size: 20px;
+			text-align: center;
+		}
+
+			ul.social li a i {
+				margin-top: 10px;
+			}
+
+@media only screen and (max-width : 480px) {
+
+	figure img {
+		width: 100%;
+	}
+
+}
